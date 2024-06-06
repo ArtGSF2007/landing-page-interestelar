@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Dosis:wght@200..800&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Oswald:wght@200..700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    margin-top: 170px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    display: flex;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(assets/fundo.png);
+    background-size: cover;
+}
+
+#titulo {
+    font-family: "Cinzel";
+    width: 450px;
+    height: 80px;
+    margin: 8px;
+    color: white;
+    font-size: 45px;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+#sub {
+    color: white;
+    font-family: "Dosis";
+    width: 400px;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.logo {
+    background-image: url(assets/interestelar.png);
+    background-size: cover;
+    width: 400px;
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 140px;
+    margin-bottom: 50px;
+    mix-blend-mode: screen;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0);
+    font-size: x-large;
+    text-decoration: none;
+    font-family: "Cinzel";
+    margin-left: 65px
+}
+
+.bot {
+    margin-top: 20px;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+    text-shadow: 2px 2px 3px rgb(255, 255, 255);
+}
+
+.syncopy {
+    background-image: url(assets/syncopy.png);
+    background-size: cover;
+    mix-blend-mode: screen;
+    width: 200px;
+    height: 80px;
+}
